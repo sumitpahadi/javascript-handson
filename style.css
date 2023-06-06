@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fab1a0;
+}
+.heading{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.heading h1{
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+pre{
+    font-size: large;
+
+}
+h1{
+    font-size: large;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+
+p{
+    font-size: large;
+    font-weight: 700;
+    font-style: italic;
+
+}
+button{
+    border: 2px solid black;
+    background-color: red;
+    width: 50px;
+    height: 20px;
+
+}
+.child{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    
+}
+.parent{
+display: flex;
+
+
+}
+.button{
+    border: 2px solid black;
+    background-color: red;
+    width: 50px;
+    height: 20px;
+
+
+}
+.parentTable{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.table{
+    width: 50%;
+    
+}
+.table ,td,th{
+    padding: 20px;
+}
+.table, th, td {
+    border: 1px solid;
+   
+  }
+  table{
+    border-collapse: collapse;
+  }
+  a{
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+/* -------------------------------------------------game css ---------------------------------- */
+
+.body{
+    background-color: #dd243d;
+}
+
+
+
+.main-conatiner{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.playBtn{
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;         
+}
+.playBtn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.rules{
+    padding: 15px 45px;
+    font-weight: 600;
+}
+.text{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contanier{
+    width: 200px;
+    height: 100px;
+    background: #ffff;
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+    line-height: 100px;
+    color: #FF512F;
+}
+hr{
+    background-color: #ffff;
+    height: 5px;
+    border: none;
+}
+.game-contanier{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+input{
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.btn{
+    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;     
+}
+.btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.rightSide h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: #dd243d;
+}
+.rightSide p{
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 600;
+}
